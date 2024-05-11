@@ -1,14 +1,6 @@
-import 'react-native-reanimated';
-
-import { SafeAreaView } from 'react-native-safe-area-context';
-import { Text } from 'react-native';
+// Define global providers 
+import { Slot, Stack } from "expo-router"
 
 export default function RootLayout() {
-
-
-  return (
-    <SafeAreaView>
-      <Text>Hello world</Text>
-    </SafeAreaView>
-  );
+  return <Slot />
 }
